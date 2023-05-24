@@ -9,8 +9,9 @@ const coordenadasSchema = Schema({
   },
   pedido_id: {
     type: Schema.Types.ObjectId,
-    ref: 'pedidos'
+    ref: 'Pedidos',
+
   }
 })
 
-export default model('coordenadas', coordenadasSchema)
+export default model('Coordenadas', coordenadasSchema)

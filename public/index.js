@@ -13,5 +13,4 @@ form.addEventListener('submit', (e) => {
 		x: inputX.value,
 		y: inputY.value,
 	});
-	// input.value = '';
 });
